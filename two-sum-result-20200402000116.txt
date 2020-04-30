@@ -1,0 +1,2 @@
+Result = 427
+Execution time = 7471.822190753s
