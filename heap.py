@@ -16,14 +16,14 @@ class Heap:
         self._bubble_up_til_valid(new_item_index)
         
     def pop(self):
-        if (self._length == 0):
+        if self._length == 0:
             return None
         root_item_key = self._heap_key_array[0]
         self._heap_key_array[0] = self._heap_key_array[self._length - 1]
         self._heap_key_array.pop(self._length - 1)
         self._length -= 1
         self._bubble_down_til_valid(0)
-        return (root_item_key, self._head_value_dictionary.pop(root_item_key))
+        return root_item_key, self._head_value_dictionary.pop(root_item_key)
     
     def get(self):
         if (self._length == 0):

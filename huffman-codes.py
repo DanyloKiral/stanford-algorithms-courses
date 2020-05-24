@@ -74,8 +74,8 @@ class HuffmanCodes:
         
         
     def read_input(self):
-        text_file = open("huffman_codes_input.txt", "r")
-        lines = text_file.readlines()
+        #text_file = open("huffman_codes_input.txt", "r")
+        #lines = text_file.readlines()
 #         lines = '''5
 
 # 5
@@ -87,6 +87,22 @@ class HuffmanCodes:
 # 20
 
 # 18'''.split('\n\n')
+
+        lines = '''7
+
+20
+
+5
+
+17
+
+10
+
+20
+
+3
+
+25'''.split('\n\n')
         
         self.number_of_symbols = int(lines[0])
         

@@ -1,0 +1,4 @@
+Summary 
+Result on 23 nodes = 24522.41147834959
+fix_value = 1920.3188306051663 
+Final result = 26442.730308954757 
